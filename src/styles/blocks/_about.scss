@@ -1,0 +1,61 @@
+.about {
+  background-image: url('../images/intro.jpg');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  padding: 170px 0 230px;
+  // position: absolute;
+  // top: -70px;
+  // left: 0;
+  // display: block;
+
+}
+
+.about-inner {
+  @include container;
+  text-align: center;
+
+}
+
+.about-title {
+  font-family: $font-kaush;
+  font-size: 72px;
+  color: #fff;
+  margin-bottom: 65px;
+}
+
+.about-suptitle {
+  font-family: $font-mon;
+  font-size: 150px;
+  color: #fff;
+  margin-bottom: 70px;
+
+}
+
+.line {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+
+}
+
+.about-btn {
+  margin-top: 50px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #fff;
+  text-decoration: none;
+  display: inline-block;
+
+  transition: background .1s linear, color .1s linear ;
+
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
