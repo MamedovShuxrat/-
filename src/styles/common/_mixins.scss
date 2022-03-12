@@ -2,3 +2,19 @@
   max-width: $width;
   margin: 0 auto;
 }
+
+@mixin title-section {
+  font-family: $font-kaush;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 23px;
+
+}
+
+@mixin suptitle-section {
+  font-family: $font-mon;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}

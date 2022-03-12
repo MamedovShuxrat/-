@@ -59,6 +59,11 @@
   width: 18px;
   display: block;
 
+  &:hover {
+  border-bottom: none;
+
+  }
+
 }
 
 .search {
@@ -68,4 +73,9 @@
   color: #fff;
   width: 18px;
   display: block;
+
+  &:hover {
+    border-bottom: none;
+
+    }
 }

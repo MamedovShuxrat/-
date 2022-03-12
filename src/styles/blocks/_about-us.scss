@@ -1,0 +1,89 @@
+.about-us {
+  padding: 90px 0 110px;
+  text-align: center;
+}
+
+.about-us-inner {
+  @include container;
+
+}
+
+.about-us-title {
+  @include title-section;
+}
+
+.about-us-suptitle {
+  @include suptitle-section;
+
+}
+
+.red-line {
+  background-color: $secondary-color;
+
+}
+
+.about-us-text {
+  font-family: $font-rob;
+  font-size: 15px;
+  color: #999;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+
+.about-us-box {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about-us-item {
+  flex-basis: 33.33%;
+  background-color: $main-color;
+  margin: 0 15px;
+  position: relative;
+
+  &:hover .about-us-img{
+    transform: translate3d(-10px, -10px, 0);
+
+    img {
+    opacity: .1;
+
+    }
+  }
+  &:hover .about-text {
+    opacity: 1;
+  }
+
+}
+
+.about-us-img {
+  width: 100%;
+  display: block;
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+
+  transition: opacity .1s linear;
+
+  img {
+    display: block;
+  }
+
+}
+
+.about-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translate3d(0, -50%, 0);
+  z-index: 2;
+  opacity: 0;
+
+  transition: all .2s linear;
+
+}

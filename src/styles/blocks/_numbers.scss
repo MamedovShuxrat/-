@@ -1,0 +1,40 @@
+.numbers{
+  background-color: $main-color;
+
+}
+.numbers-inner {
+  @include container ;
+
+}
+
+.numbers-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers-item {
+  flex-basis: 20%;
+  text-align: center;
+  padding: 85px 5px;
+  border-left: 1px solid #eee;
+
+  &:last-child {
+    border-right: 1px solid #eee;
+  }
+}
+
+.numbers-summ {
+  font-size: 72px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+
+.numbers-text {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
