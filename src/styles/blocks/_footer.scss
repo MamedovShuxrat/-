@@ -1,0 +1,233 @@
+.footer {
+  background-color: #f8f8f8;
+  padding: 80px 0 25px;
+}
+
+.footer-inner {
+  @include container;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  margin: 0 15px;
+  flex-basis: 33.33%;
+}
+
+.footer-logo{
+  text-decoration: none;
+  display: block;
+  font-size: 46px;
+  color: #999;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.footer-text {
+  font-family: $font-rob;
+  font-size: 15px;
+  color: #999;
+  font-weight: 300;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.footer-folowers {
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.footer-social-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-top: 1px solid #999;
+}
+
+.footer-social-item{
+  color: #999;
+  font-weight: 300;
+  width: 30px;
+  margin-right: 5px;
+  text-decoration: none;
+
+  &:hover {
+   transform: scale(1.1);
+  }
+
+  &:nth-child(1) {
+    width: 75px;
+  }
+}
+
+.facebook-1 {
+  background-image: url('../images/footer/facebook.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter-1 {
+  background-image: url('../images/footer/twitter.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.instagram-1 {
+  background-image: url('../images/footer/instagram.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.facebook-1 {
+  background-image: url('../images/footer/facebook.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pinterest-1 {
+  background-image: url('../images/footer/pinterest.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.google {
+  background-image: url('../images/footer/google.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.youtube {
+  background-image: url('../images/footer/youtube.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.dribbble {
+  background-image: url('../images/footer/dribbble.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tumblr {
+  background-image: url('../images/footer/tumblr.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-input {
+  padding: 12px;
+  color: #999;
+  font-family: $font-rob;
+  font-style: italic;
+  font-weight: 300;
+  width: 50%;
+  display: block;
+  border: none;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  opacity: .5;
+  background-color: #fff;
+
+
+}
+
+
+.footer-button {
+  padding: 12px;
+  font-family: $font-kaush;
+  font-weight: 700;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: $main-color;
+  display: block;
+  width: 50%;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+.footer-title {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.footer-blogs-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.blogs-visual {
+  margin-right: 10px;
+  flex-basis: 35%;
+
+  img {
+    display: block;
+  }
+}
+
+.blogs-info {
+  flex-basis: 65%;
+  align-self: center;
+}
+.blogs-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.blogs-date {
+  font-size: 12px;
+  font-family: $font-rob;
+  font-weight: 300;
+  color: #999;
+}
+
+.instagram-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.instagram-item {
+  margin: 2px;
+  flex-basis: 31.33%;
+
+  img {
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.copy {
+  margin: 25px auto;
+  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+
+  span {
+    font-weight: 700;
+    color: $secondary-color;
+  }
+}

@@ -1,11 +1,12 @@
 .header {
   padding: 10px 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: block;
   z-index: 1000;
+  background-color: $secondary-color;
 }
 
 .container {
@@ -44,10 +45,12 @@
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 700;
+
 
   &:hover {
     color: $yellow-color;
-    border-bottom: 2px solid $yellow-color;
+    transform: scale(1.1);
   }
 }
 
