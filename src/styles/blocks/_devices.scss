@@ -1,0 +1,39 @@
+.devices {
+  background-image: url('../images/devices-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 110px;
+}
+
+.devices-inner {
+  @include container;
+}
+
+.devices-title {
+  @include title-section;
+}
+
+.devices-suptitle {
+  @include suptitle-section;
+}
+
+.devices-box {
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.devices-ipad {
+  display: block;
+  margin: 0 auto;
+}
+
+.devices-iphone {
+  position: absolute;
+  bottom: -80px;
+  right: -90px;
+  display: block;
+  z-index: 1;
+}

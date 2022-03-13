@@ -22,7 +22,7 @@
 
 }
 
-.about-us-text {
+.section-text {
   font-family: $font-rob;
   font-size: 15px;
   color: #999;
@@ -31,19 +31,19 @@
 }
 
 
-.about-us-box {
+.card-box {
   display: flex;
   justify-content: space-between;
 
 }
 
-.about-us-item {
+.card-item {
   flex-basis: 33.33%;
   background-color: $main-color;
   margin: 0 15px;
   position: relative;
 
-  &:hover .about-us-img{
+  &:hover .card-img{
     transform: translate3d(-10px, -10px, 0);
 
     img {
@@ -57,7 +57,7 @@
 
 }
 
-.about-us-img {
+.card-img {
   width: 100%;
   display: block;
   background: linear-gradient(to bottom, #f38181, #fce38a);
@@ -86,4 +86,22 @@
 
   transition: all .2s linear;
 
+}
+
+
+.card-name {
+  font-size: 14px;
+  margin-top: 30px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card-prof {
+  font-size: 15px;
+  font-family: $font-rob;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 20px;
+  color: #999;
 }
