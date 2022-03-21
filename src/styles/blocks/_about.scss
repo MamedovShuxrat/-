@@ -60,3 +60,26 @@
     color: #000;
   }
 }
+
+@media (max-width: $tablet) {
+  .about-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+
+    }
+
+  .about {
+    padding: 120px 0 ;
+  }
+
+  .about-suptitle {
+    font-size: 80px;
+
+
+  }
+
+.about-btn {
+  margin-top: 20px;
+}
+
+}

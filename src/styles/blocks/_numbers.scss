@@ -38,3 +38,15 @@
   text-transform: uppercase;
 
 }
+
+@media (max-width: $tablet){
+.numbers-item {
+  padding: 50px 5px;
+}
+
+
+.numbers-summ {
+  font-size: 45px;
+  }
+
+}

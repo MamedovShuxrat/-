@@ -231,3 +231,30 @@
     color: $secondary-color;
   }
 }
+@media (max-width: $tablet){
+  .footer-item:nth-child(1){
+  }
+
+  .footer-text{
+    font-size: 12px;
+  }
+
+  .footer-social-box{
+    flex-wrap: wrap;
+
+  }
+  .footer-social-item:nth-child(1){
+    align-self: center;
+  }
+  .footer-input-box{
+    flex-wrap: wrap;
+  }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .footer-button {
+    width: 100%;
+  }
+}
