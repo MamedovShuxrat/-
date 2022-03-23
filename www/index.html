@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/animate.css">
   <title>Mogo</title>
 </head>
 
@@ -14,15 +16,15 @@
   <header class="header">
     <div class="container">
       <div class="header-content">
-        <a href="#logo" class="logo">Mogo</a>
+        <a href="#logo" class="logo animate__animated animate__heartBeat">Mogo</a>
         <nav class="nav">
-          <a href="#about" class="nav-link">About</a>
-          <a href="#services" class="nav-link">Service</a>
-          <a href="#Work" class="nav-link">Work</a>
-          <a href="#Blog" class="nav-link">Blog</a>
-          <a href="#footer" class="nav-link">Contact</a>
-          <a href="#" class="nav-link shop-cart"></a>
-          <a href="#" class="nav-link search"></a>
+          <a href="#about" class="nav-link  animate__animated animate__heartBeat">About</a>
+          <a href="#services" class="nav-link animate__animated animate__heartBeat">Service</a>
+          <a href="#Work" class="nav-link animate__animated animate__heartBeat">Work</a>
+          <a href="#Blog" class="nav-link animate__animated animate__heartBeat">Blog</a>
+          <a href="#footer" class="nav-link animate__animated animate__heartBeat">Contact</a>
+          <a href="#" class="nav-link shop-cart animate__animated animate__heartBeat"></a>
+          <a href="#" class="nav-link search animate__animated animate__heartBeat"></a>
         </nav>
         <div class="burger">
           <span></span>
@@ -31,14 +33,14 @@
 
     </div>
   </header>
-  <section class="about">
+  <section class="about ">
     <div class="about-inner">
-      <h1 class="about-title">Creative Template</h1>
+      <h1 class="about-title ">Creative Template</h1>
       <h2 class="about-suptitle">
         Welcome to MoGo
       </h2>
       <span class="line"> </span>
-      <a href="#" class="about-btn">learn more</a>
+      <a href="#" class="about-btn animate__animated animate__flash">learn more</a>
     </div>
   </section>
 
@@ -50,7 +52,7 @@
       <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quae possimus similique
         inventore, alias numquam harum dolor doloribus doloremque aut repellat temporibus nam sed ratione! Voluptatibus
         nostrum dicta aspernatur necessitatibus.</p>
-      <div class="card-box">
+      <div class="card-box  wow fadeIn">
         <div class="card-item">
           <div class="card-img">
             <img src="images/about/1.jpg" alt="">
@@ -78,30 +80,45 @@
     <div class="numbers-inner">
       <div class="numbers-box">
         <div class="numbers-item">
-          <div class="numbers-summ">42</div>
+          <div class="number-inner animate__animated animate__bounceIn">
+            <div class="numbers-summ  ">42</div>
           <div class="numbers-text">Web Design Projects</div>
+          </div>
+
         </div>
         <div class="numbers-item">
-          <div class="numbers-summ">123</div>
+          <div class="number-inner animate__animated animate__bounceIn">
+            <div class="numbers-summ">123</div>
           <div class="numbers-text">happy client</div>
+          </div>
+
         </div>
         <div class="numbers-item">
-          <div class="numbers-summ">15</div>
+          <div class="number-inner animate__animated animate__bounceIn">
+            <div class="numbers-summ ">15</div>
           <div class="numbers-text">award winner</div>
+          </div>
+
         </div>
         <div class="numbers-item">
-          <div class="numbers-summ">99</div>
+          <div class="number-inner animate__animated animate__bounceIn">
+            <div class="numbers-summ ">99</div>
           <div class="numbers-text">cup of coffee</div>
+          </div>
+
         </div>
         <div class="numbers-item">
-          <div class="numbers-summ">24</div>
+          <div class="number-inner animate__animated animate__bounceIn">
+            <div class="numbers-summ  ">24</div>
           <div class="numbers-text">members</div>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <section class="services" id="services">
+  <section class="services wow bounceInUp" id="services">
     <div class="services-inner">
       <h2 class="services-title">We work with</h2>
       <h3 class="services-suptitle">Amazing Services</h3>
@@ -410,6 +427,12 @@
       <div class="copy">© 2016 MoGo free PSD template by <span>Laaqiq</span> </div>
     </div>
   </footer>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 
 </body>
 

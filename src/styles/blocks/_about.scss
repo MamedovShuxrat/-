@@ -52,13 +52,16 @@
   text-decoration: none;
   display: inline-block;
 
-  transition: background .1s linear, color .1s linear ;
+  transition: all .3s linear;
 
 
   &:hover {
     background-color: #fff;
-    color: #000;
-  }
+    color: $secondary-color;
+    // border: 2px solid $yellow-color ;
+    transform: scale(1.001);
+
+    }
 }
 
 @media (max-width: $tablet) {
