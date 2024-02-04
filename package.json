@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp"
   },
-  "author": "Kirill Demidov <kademidov@gmail.com>",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7",
